@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="index">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historiaComputer">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#server">O que são <i>Servers</i>?</a></li>
+        <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#ref">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historiaComputer">História dos computadores</h2>
+    <small><a href="#index">(voltar)</a></small>
+    <p>
+        A história dos computadores começou com dispositivos mecânicos para cálculos, 
+        avançou para computadores eletrônicos durante a 
+        <a href="https://pt.wikipedia.org/wiki/Segunda_Guerra_Mundial"><strong><i>Segunda Guerra Mundial</i></strong></a> 
+        e evoluiu para a era dos <i>PCs</i> e da <i>Internet</i>. Hoje, vivemos 
+        na era da computação moderna, com avanços como a 
+        <a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-cloud-computing">computação em nuvem</a>, 
+        <a href="https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial">inteligência artificial</a> 
+        e IoT. Os computadores tiveram um impacto profundo em nossa sociedade, transformando a forma como vivemos e interagimos.
+        <br />
+        Esse avanço todo deve-se graças ao
+        <a href="https://en.wikipedia.org/wiki/Alan_Turing"><strong><i>Alan Turing</i></strong></a>,
+        matemático inglês do século XX cujos feitos foram decisivos para o desenvolvimento dos computadores, notebooks e smartphones. Conhecido como o pai da ciência da computação, Turing desenvolveu um modelo teórico chamado "Máquina de Turing", que fundamentou a computação moderna.
+    </p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#index"></a>(voltar)</small>
+    <p>
+        Um <strong>clients</strong> é qualquer entidade que faz solicitações para um <u>servidor</u>, buscando 
+        algum serviço ou conteúdo específico. Essas solicitações são processadas pelo 
+        servidor, que responde ao cliente, atendendo às suas necessidades. A relação 
+        <strong>cliente-servidor</strong> é fundamental na maioria das interações 
+        que ocorrem na Internet e nas redes de computadores.
+        <br />
+        Quando se trata de arquiteturas <i>cliente-servidor</i>, o cliente e o servidor 
+        são componentes distintos que se comunicam entre si por meio de uma rede, 
+        geralmente a Internet. A relação <i>cliente-servidor</i> é fundamental para muitas
+        aplicações e serviços online que utilizamos diariamente.
+    </p>
+
+    <h2 id="server">O que são <i>Servers</i>?</h2>
+    <small><a href="#index">(voltar)</a></small>
+    <p>
+        Um <strong>server</strong> é um dispositivo, programa ou sistema que fornece serviços, 
+        recursos ou informações para outros dispositivos, programas ou sistemas chamados 
+        <strong><i><a href="#clients">clients</a></i></strong>. Os servidores são peças centrais 
+        em sistemas de computação e redes, pois são projetados para atender a múltiplas 
+        solicitações de clientes simultaneamente.
+        <br />
+        Existem diversos tipos de servidores, cada um com suas funções específicas. Por exemplo, os servidores web são responsáveis por armazenar e entregar páginas da Web e outros recursos para os navegadores dos clientes através do protocolo HTTP. Já os servidores de e-mail gerenciam a entrega, recebimento e armazenamento de e-mails. Além disso, existem servidores de banco de dados que armazenam, gerenciam e recuperam dados, e servidores de jogos que hospedam jogos multiplayer online.
+        <br />
+        Essa relação entre cliente e servidor é essencial na arquitetura cliente-servidor, onde os clientes solicitam serviços ou recursos e os servidores respondem, fornecendo o que foi solicitado. A comunicação entre clientes e servidores é fundamental para a maioria das interações que ocorrem na Internet e nas redes de computadores. Os servidores desempenham um papel fundamental no funcionamento de muitos serviços e aplicações que utilizamos diariamente.
+    </p>
+
+    <h2 id="html">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#index">(voltar)</a></small>
+    <p>
+        Uma estrutura <strong>HTML</strong> é formada por algumas <i>tags</i> que se divide em <i>head</i> que é o
+        cabeçalho do site e o <i>body</i> que é onde vai ficar todo o conteudo que será exibido no navegador
+    </p>
+    <p>
+        <strong>&lt;!DOCTYPE html&gt;</strong>: Essa declaração define o tipo de documento como 
+        <i>HTML5</i>. É o primeiro elemento do documento e indica que o documento segue a 
+        especificação da versão mais recente do <i>HTML</i>.
+    </p>
+    
+    <p>
+        <strong>&lt;html&gt;</strong>: É o elemento raiz de todo o documento <i>HTML</i>. 
+        Ele envolve todo o conteúdo da página.
+    </p>
+    
+    <p>
+        <strong>&lt;head&gt;</strong>: É o elemento que contém metadados sobre o documento, 
+        como o título da página, o conjunto de caracteres (charset) usado, 
+        referências a folhas de estilo <u>CSS</u>, scripts <u>JavaScript</u> e outros metadados importantes.
+    </p>
+    
+    <p>
+        <strong>&lt;meta charset="UTF-8"&gt;</strong>: Este elemento define o conjunto de caracteres utilizado 
+        no documento. <i>"UTF-8"</i> é o conjunto de caracteres mais comumente 
+        utilizado e é compatível com a maioria dos idiomas.
+    </p>
+    
+    <p>
+        <strong>&lt;title&gt;</strong>:Define o título da página, que é exibido na barra de título do 
+        navegador ou na guia da página. É uma parte essencial do 
+        <strong><i>SEO (Search Engine Optimization)</i></strong> para ajudar os mecanismos de busca a 
+        entender o conteúdo da página.
+    </p>
+    
+    <p>
+        <strong>&lt;body&gt;</strong>: É o elemento que contém todo o conteúdo visível da página, 
+        como texto, imagens, links, vídeos e outros elementos <u>HTML</u>. É dentro do <strong>&lt;body&gt;</strong> 
+        que a estrutura do conteúdo da página é definida.
+    </p>
+    
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#index">(voltar)</a></small>
+    <p><strong>Lista Não Ordenada:</strong></p>
+    <p>
+        A lista não ordenada é usada para criar uma lista de itens em que a ordem dos itens não tem 
+        importância e não segue uma sequência específica. Cada item da lista é marcado com um símbolo, 
+        geralmente um ponto preto ou um círculo.
+    </p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <p><strong>Lista Ordenada:</strong></p>
+    <p>
+        A lista ordenada é usada para criar uma lista de itens em que a ordem dos itens é importante 
+        e segue uma sequência específica. Cada item da lista é marcado com um número ou uma letra, 
+        indicando sua posição na sequência.
+    </p>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <h2 id="ref">Links de referências</h2>
+    <ul>
+        <li><a href="https://www.dio.me/" target="_blank">http://dio.me</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">http://w3c.org</a></li>
+        <li><a href="https://www.wikipedia.org/" target="_blank">wikipedia.org</a></li>
+    </ul>
+
+</body>
+</html>
